@@ -1,0 +1,50 @@
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: hsl(0, 0%, 95%);
+  padding: 10%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px;
+  padding: 20px;
+  font-size: 15px;
+  width: 50%;
+  height: 100%;
+}
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+  margin-left: 110%;
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+  margin-left: 50%;
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 20%;
+  border: 1px hsla(0, 0%, 100%, 0.75);
+  padding: 16px 30px;
+  border-radius: 40px;
+}
+h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
